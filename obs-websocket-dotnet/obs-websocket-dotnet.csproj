@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
-		<TargetFramework>netstandard2.0</TargetFramework>
+		<TargetFramework>netstandard2.1</TargetFramework>
 		<AssemblyName>obs-websocket-dotnet</AssemblyName>
 		<RootNamespace>OBSWebsocketDotNet</RootNamespace>
 		<Copyright>Copyright © BarRaider 2022</Copyright>
@@ -27,13 +27,9 @@ What's new in v5.0.0.3
 </PackageReleaseNotes>
 	</PropertyGroup>
 
-	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
-	  <DocumentationFile>E:\Projects\GitHub\obs-websocket-dotnet-standard\obs-websocket-dotnet\obs-websocket-dotnet.xml</DocumentationFile>
-	</PropertyGroup>
-
 	<ItemGroup>
 	  <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
-	  <PackageReference Include="Websocket.Client" Version="4.4.43" />
+	  <PackageReference Include="Websocket.Client" Version="5.1.2" />
 	</ItemGroup>
 
 	<ItemGroup>
